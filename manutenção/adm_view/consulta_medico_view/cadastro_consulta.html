@@ -1,0 +1,45 @@
+<!--comments-->
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="../../home.css">
+      <title>Criar Nova Consulta - Clínica Vision</title>
+    </head>
+    <body>
+      <div class="header">
+        <p id="home">- Criar Nova Consulta -</p>
+        <h1>Clínica Vision</h1>
+            <ul class="menu">
+              <li><a href="listar_consultas.php">Consultas</a></li>
+              <li><a href="../../home.html">Sair</a></li>
+          </ul>
+    </div>
+    <div id="form_login">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+      <form action="cadastro_consulta.php" method="post">
+            <!--endereço-->
+            <h2>Criar Nova Consulta</h2>
+            <label>Data e Horário da consulta:</label><br><br>
+            <input type="datetime-local" name="data_consulta">
+            <label>Status:</label>
+            <input type="checkbox" name="status"><br><br>
+            <label>Médico:</label>
+            <input type="number" name="cod_medico"><br><br>
+            
+          <input type="submit" name="salvar" value="Cadastrar">
+          <input type="reset" name="cancelar" value="Cancelar">
+          <br><br>
+      </form>
+    </div>    
+    </body>
+    <footer>
+      <p>Contato: (99) 9999-9999 / (41) 3355-5566</p>
+      <p>Email: ClinicaVision@gmail.com</p>
+      <p>Redes Sociais: @ClinicVision</p>
+      <a href="../../sobre.html">Sobre nós</a>
+    </footer>     
+ 
+</html>

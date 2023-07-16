@@ -1,0 +1,66 @@
+<!--comments-->
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="../home.css">
+        <title>Criar Conta - Adm</title> 
+    </head>
+    <body>
+      <div class="header">
+        <p id="home">Criar Conta - Paciente</p>
+        <h1>Clínica Vision</h1>
+            <ul class="menu">
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="../listar_plano_saude.php">Plano de Saúde</a></li>
+                <li><a href="../listar_medicos.php">Médicos</a></li>
+                <li><a href="../consulta_blank.html">Consultas</a></li>
+                <li><a href="../paciente_view/login_paciente.php">Login</a></li>
+            </ul>
+      </div>
+      <div class="links">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+        <form action="cadastro_adm.php" method="post">
+          <div class="text1">
+            <!--endereço-->
+            <h2>Criar Conta - Administrador</h2>
+            <h3>Endreço:</h3>
+            <label>CEP:</label>
+            <input type="text" name="CEP" max="8"><br><br>
+            <label>Rua:</label>
+            <input type="text" name="rua" max="40"><br><br>
+            <label>Bairro:</label>
+            <input type="text" name="bairro" max="20"><br><br>
+            <label>Número:</label>
+            <input type="text" name="numero" max="10"><br><br>
+            <label>Complemento:</label>
+            <input type="text" name="complemento_endereco" max="30"><br><br>
+          </div>
+          <div class="text2">
+            <h3>Informações Pessoais:</h3>
+            <label>CPF:</label>
+            <input type="text" name="CPF_adm" max="11"><br><br>
+            <label>Nome Completo:</label>
+            <input type="text" name="nome_adm" max="60"><br><br>
+            <label>Data de Nascimento:</label>
+            <input type="date" name="data_nasc_adm"><br><br>
+            <label>Telefone:</label>
+            <input type="text" name="telefone_adm" max="14"><br><br>
+            <label>Senha:</label>
+            <input type="password" name="senha_adm"><br><br>
+
+          <input type="submit" name="salvar" value="Cadastrar">
+          <input type="reset" name="cancelar" value="Cancelar">
+        </div>
+      </div>
+        </form><br><br>
+    </body>
+    <footer>
+      <p>Contato: (99) 9999-9999 / (41) 3355-5566</p>
+      <p>Email: ClinicaVision@gmail.com</p>
+      <p>Redes Sociais: @ClinicVision</p>
+      <a href="../sobre.html">Sobre nós</a>
+    </footer>
+</html>
